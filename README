@@ -1,0 +1,76 @@
+gtksourceview-sharp2
+------------------------------------------
+Mono GtkSourceView bindings
+
+Runtime requirements:
+  cygwin-1.5.21-1
+  gnome-sharp2-2.8.3-1
+  gtksourceview-1.6.1-1
+  mono-1.1.16.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.21-1
+  autoconf2.5-2.59-2
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.2.5-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.22-1
+  make-3.81-1
+  monodoc-1.1.16-1
+  pkg-config-0.20-1
+  sed-4.1.5-1
+
+Canonical website:
+  http://www.mono-project.com/
+
+Canonical download:
+  http://go-mono.com/sources-latest/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gtksourceview-sharp2-0.10-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gtksourceview-sharp2-0.10-X.cygport all
+
+This will create:
+  /usr/src/gtksourceview-sharp2-0.10-X-src.tar.bz2
+  /usr/src/gtksourceview-sharp2-0.10-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/mono/gac/gtksourceview-sharp/1.0.0.2__35e10195dab3c99f/gtksourceview-sharp.dll
+  /usr/lib/mono/gac/gtksourceview-sharp/1.0.0.2__35e10195dab3c99f/gtksourceview-sharp.dll.config
+  /usr/lib/mono/gtksourceview-sharp-2.0/gtksourceview-sharp.dll
+  /usr/lib/monodoc/sources/gtksourceview-sharp-docs.source
+  /usr/lib/monodoc/sources/gtksourceview-sharp-docs.tree
+  /usr/lib/monodoc/sources/gtksourceview-sharp-docs.zip
+  /usr/lib/pkgconfig/gtksourceview-sharp-2.0.pc
+  /usr/share/doc/Cygwin/gtksourceview-sharp2-0.10.README
+  /usr/share/doc/gtksourceview-sharp2-0.10/AUTHORS
+  /usr/share/doc/gtksourceview-sharp2-0.10/COPYING
+  /usr/share/doc/gtksourceview-sharp2-0.10/ChangeLog
+  /usr/share/doc/gtksourceview-sharp2-0.10/INSTALL
+  /usr/share/doc/gtksourceview-sharp2-0.10/NEWS
+  /usr/share/doc/gtksourceview-sharp2-0.10/README
+  /usr/share/gapi-2.0/gtksourceview-api.xml
+  /usr/share/gtksourceview-1.0/language-specs/nemerle.lang
+  /usr/share/gtksourceview-1.0/language-specs/vbnet.lang
+
+------------------
+
+Port Notes:
+
+----- version 0.10-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
