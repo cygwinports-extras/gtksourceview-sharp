@@ -3,25 +3,26 @@ gtksourceview-sharp2
 Mono GtkSourceView bindings
 
 Runtime requirements:
-  cygwin-1.5.21-1
-  gnome-sharp2-2.8.3-1
-  gtksourceview-1.6.1-1
-  mono-1.1.16.1-1
+  cygwin-1.5.23-2
+  glib-sharp2-2.10.0-1
+  gnome-sharp2-2.16.0-1
+  gtk-sharp2-2.10.0-1
+  gtksourceview-1.8.2-1
+  mono-1.2.2.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.21-1
-  autoconf2.5-2.59-2
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.5-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  libtool1.5-1.5.22-1
+  cygwin-1.5.23-2
+  autoconf2.5-2.60-2
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
   make-3.81-1
-  monodoc-1.1.16-1
-  pkg-config-0.20-1
-  sed-4.1.5-1
+  monodoc-1.2.1-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
 
 Canonical website:
   http://www.mono-project.com/
@@ -67,6 +68,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.10-2 -----
+Rebuilt for mono-1.2 and gtk-sharp-2.10/gnome-sharp-2.16.
 
 ----- version 0.10-1 -----
 Initial release for Cygwin.
