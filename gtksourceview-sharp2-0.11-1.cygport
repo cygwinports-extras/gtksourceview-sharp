@@ -1,0 +1,7 @@
+inherit mono
+
+my_pn="${PN%2}-2.0"
+
+DESCRIPTION="GNOME C-Sharp bindings"
+SRC_URI="http://go-mono.com/sources/${my_pn}/${my_pn}-${PV}.tar.bz2"
+SRC_DIR="${my_pn}-${PV}"
